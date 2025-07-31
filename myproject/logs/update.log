@@ -1,0 +1,110 @@
+[2025-07-29 16:39:17] Starting system update...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Hit:1 http://security.ubuntu.com/ubuntu noble-security InRelease
+Hit:2 http://gh.archive.ubuntu.com/ubuntu noble InRelease
+Hit:3 http://gh.archive.ubuntu.com/ubuntu noble-updates InRelease
+Hit:4 http://gh.archive.ubuntu.com/ubuntu noble-backports InRelease
+Reading package lists...
+Building dependency tree...
+Reading state information...
+151 packages can be upgraded. Run 'apt list --upgradable' to see them.
+[2025-07-29 16:39:17] apt update successful
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+The following NEW packages will be installed:
+  linux-headers-6.14.0-27-generic linux-hwe-6.14-headers-6.14.0-27
+  linux-hwe-6.14-tools-6.14.0-27 linux-image-6.14.0-27-generic
+  linux-modules-6.14.0-27-generic linux-modules-extra-6.14.0-27-generic
+  linux-tools-6.14.0-27-generic
+The following upgrades have been deferred due to phasing:
+  ubuntu-drivers-common
+The following packages will be upgraded:
+  alsa-ucm-conf apport apport-core-dump-handler apport-gtk bluez bluez-cups
+  bluez-obexd bsdextrautils bsdutils dirmngr dnsmasq-base eject fdisk
+  firmware-sof-signed fwupd ghostscript gir1.2-gdkpixbuf-2.0 gir1.2-gtk-4.0
+  gir1.2-mutter-14 gir1.2-soup-3.0 gnome-calculator gnome-initial-setup gnupg
+  gnupg-l10n gnupg-utils gpg gpg-agent gpg-wks-client gpgconf gpgsm gpgv
+  gstreamer1.0-pipewire gvfs gvfs-backends gvfs-common gvfs-daemons gvfs-fuse
+  gvfs-libs gzip ipp-usb iputils-ping iputils-tracepath jq keyboxd
+  libarchive13t64 libblkid1 libbluetooth3 libc-bin libc-dev-bin libc-devtools
+  libc6 libc6-dbg libc6-dev libdjvulibre-text libdjvulibre21 libfdisk1
+  libfprint-2-2 libfprint-2-tod1 libfreerdp-server3-3 libfreerdp3-3 libfwupd2
+  libgdk-pixbuf-2.0-0 libgdk-pixbuf2.0-bin libgdk-pixbuf2.0-common
+  libgnutls30t64 libgs-common libgs10 libgs10-common libgtk-4-1 libgtk-4-bin
+  libgtk-4-common libgtk-4-media-gstreamer libjq1 libldb2 libmount1
+  libmutter-14-0 libnautilus-extension4 libnetplan1 libnss-systemd
+  libpam-systemd libpciaccess0 libpipewire-0.3-0t64 libpipewire-0.3-common
+  libpipewire-0.3-modules libpoppler-cpp0t64 libpoppler-glib8t64 libpoppler134
+  libprotobuf32t64 libsmartcols1 libsmbclient0 libsoup-2.4-1 libsoup-3.0-0
+  libsoup-3.0-common libsoup2.4-common libspa-0.2-bluetooth libspa-0.2-modules
+  libsqlite3-0 libssh-4 libsysmetrics1 libsystemd-shared libsystemd0 libudev1
+  libuuid1 libwbclient0 libwinpr3-3 linux-firmware linux-generic-hwe-24.04
+  linux-headers-generic-hwe-24.04 linux-image-generic-hwe-24.04 linux-libc-dev
+  linux-tools-common locales mount mutter-common mutter-common-bin nautilus
+  nautilus-data netplan-generator netplan.io openssh-client openssh-server
+  openssh-sftp-server openvpn pipewire pipewire-alsa pipewire-audio
+  pipewire-bin pipewire-pulse poppler-utils power-profiles-daemon
+  python3-apport python3-netplan python3-problem-report python3-urllib3 rfkill
+  samba-libs sudo systemd systemd-dev systemd-oomd systemd-resolved
+  systemd-sysv systemd-timesyncd ubuntu-pro-client ubuntu-pro-client-l10n
+  ubuntu-report ubuntu-settings udev util-linux uuid-runtime
+150 upgraded, 7 newly installed, 0 to remove and 1 not upgraded.
+60 standard LTS security updates
+Need to get 236 MB/797 MB of archives.
+After this operation, 296 MB of additional disk space will be used.
+Get:1 http://gh.archive.ubuntu.com/ubuntu noble-updates/main amd64 bluez amd64 5.72-0ubuntu5.3 [1,360 kB]
+Get:2 http://gh.archive.ubuntu.com/ubuntu noble-updates/main amd64 openssh-sftp-server amd64 1:9.6p1-3ubuntu13.13 [37.1 kB]
+Get:3 http://gh.archive.ubuntu.com/ubuntu noble-updates/main amd64 openssh-server amd64 1:9.6p1-3ubuntu13.13 [510 kB]
+Get:4 http://gh.archive.ubuntu.com/ubuntu noble-updates/main amd64 openssh-client amd64 1:9.6p1-3ubuntu13.13 [906 kB]
+Get:5 http://gh.archive.ubuntu.com/ubuntu noble-updates/main amd64 eject amd64 2.39.3-9ubuntu6.3 [26.3 kB]
+Get:6 http://gh.archive.ubuntu.com/ubuntu noble-updates/main amd64 netplan-generator amd64 1.1.2-2~ubuntu24.04.2 [61.1 kB]
+Get:7 http://gh.archive.ubuntu.com/ubuntu noble-updates/main amd64 python3-netplan amd64 1.1.2-2~ubuntu24.04.2 [24.3 kB]
+Get:8 http://gh.archive.ubuntu.com/ubuntu noble-updates/main amd64 netplan.io amd64 1.1.2-2~ubuntu24.04.2 [69.7 kB]
+Get:9 http://gh.archive.ubuntu.com/ubuntu noble-updates/main amd64 libnetplan1 amd64 1.1.2-2~ubuntu24.04.2 [132 kB]
+Get:10 http://gh.archive.ubuntu.com/ubuntu noble-updates/main amd64 ubuntu-pro-client-l10n amd64 36ubuntu0~24.04 [19.8 kB]
+Get:11 http://gh.archive.ubuntu.com/ubuntu noble-updates/main amd64 ubuntu-pro-client amd64 36ubuntu0~24.04 [258 kB]
+Get:12 http://gh.archive.ubuntu.com/ubuntu noble-updates/main amd64 bsdextrautils amd64 2.39.3-9ubuntu6.3 [73.7 kB]
+Get:13 http://gh.archive.ubuntu.com/ubuntu noble-updates/main amd64 alsa-ucm-conf all 1.2.10-1ubuntu5.7 [66.4 kB]
+Get:14 http://gh.archive.ubuntu.com/ubuntu noble-updates/main amd64 bluez-cups amd64 5.72-0ubuntu5.3 [29.3 kB]
+Get:15 http://gh.archive.ubuntu.com/ubuntu noble-updates/main amd64 bluez-obexd amd64 5.72-0ubuntu5.3 [233 kB]
+Get:16 http://gh.archive.ubuntu.com/ubuntu noble-updates/main amd64 dnsmasq-base amd64 2.90-2ubuntu0.1 [376 kB]
+Get:17 http://gh.archive.ubuntu.com/ubuntu noble-updates/main amd64 fdisk amd64 2.39.3-9ubuntu6.3 [122 kB]
+Get:18 http://gh.archive.ubuntu.com/ubuntu noble-updates/main amd64 firmware-sof-signed all 2023.12.1-1ubuntu1.6 [7,202 kB]
+Get:19 http://gh.archive.ubuntu.com/ubuntu noble-updates/main amd64 libfwupd2 amd64 1.9.30-0ubuntu1~24.04.1 [136 kB]
+Get:20 http://gh.archive.ubuntu.com/ubuntu noble-updates/main amd64 fwupd amd64 1.9.30-0ubuntu1~24.04.1 [4,589 kB]
+[2025-07-29 16:39:17] apt upgrade FAILED
+[2025-07-29 16:50:01] Starting system update...
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+sudo: a password is required
+[2025-07-29 16:50:01] apt update FAILED
+[2025-07-29 16:51:01] Starting system update...
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+sudo: a password is required
+[2025-07-29 16:51:01] apt update FAILED
+[2025-07-29 16:51:26] Starting system update...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+E: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock directory /var/lib/apt/lists/
+W: Problem unlinking the file /var/cache/apt/pkgcache.bin - RemoveCaches (13: Permission denied)
+W: Problem unlinking the file /var/cache/apt/srcpkgcache.bin - RemoveCaches (13: Permission denied)
+[2025-07-29 16:51:26] apt update FAILED
+[2025-07-29 16:52:01] Starting system update...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+E: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock directory /var/lib/apt/lists/
+W: Problem unlinking the file /var/cache/apt/pkgcache.bin - RemoveCaches (13: Permission denied)
+W: Problem unlinking the file /var/cache/apt/srcpkgcache.bin - RemoveCaches (13: Permission denied)
+[2025-07-29 16:52:01] apt update FAILED
